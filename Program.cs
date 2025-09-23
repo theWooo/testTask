@@ -12,13 +12,6 @@ namespace ConsoleApp8
                 int floor = Convert.ToInt32(Console.ReadLine());
                 elevator.move(floor);
             }
-            //}
-            //Elevator elevator = new Elevator(-3, 26);
-            //foreach(int  a in Enumerable.Range(-5,35)){
-            //    int floor = a;//Convert.ToInt32(Console.ReadLine());
-            //    elevator.move(floor);
-            //    Console.WriteLine("-----------------------------------------------------");
-            //}
         }
     }
     class Elevator {
@@ -58,7 +51,7 @@ namespace ConsoleApp8
             else { return; }
             while (currentFloor != floor) {
                 direct();
-                Console.WriteLine(currentFloor);
+                Console.WriteLine(getCurrentFloor());
             }
         }
     }
