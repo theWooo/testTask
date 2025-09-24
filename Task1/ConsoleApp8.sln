@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.14.36414.22
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp8", "ConsoleApp8.csproj", "{85695D5A-65A2-4110-8D01-21EB69F2970B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task1", "Task1.csproj", "{85695D5A-65A2-4110-8D01-21EB69F2970B}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task2", "..\Task2\Task2.csproj", "{A69BA2A7-E9A6-4E3D-B5A7-D8EFC2D504CF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AgeComparator", "..\Task3\AgeComparator.csproj", "{1E5D856D-93D9-4CEC-A8F3-46AF2E38C720}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{A69BA2A7-E9A6-4E3D-B5A7-D8EFC2D504CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A69BA2A7-E9A6-4E3D-B5A7-D8EFC2D504CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A69BA2A7-E9A6-4E3D-B5A7-D8EFC2D504CF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1E5D856D-93D9-4CEC-A8F3-46AF2E38C720}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1E5D856D-93D9-4CEC-A8F3-46AF2E38C720}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1E5D856D-93D9-4CEC-A8F3-46AF2E38C720}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1E5D856D-93D9-4CEC-A8F3-46AF2E38C720}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
