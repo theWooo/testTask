@@ -7,9 +7,9 @@
     }
     class Main {
         public void main() {
-            int vasyaAge = 45;
-            int katyaAge = 17;
-            int mishaAge = 17;
+            int vasyaAge = 60;
+            int katyaAge = 35;
+            int mishaAge = 15;
             int min = vasyaAge;
             int middle = katyaAge;
             int max = mishaAge;
@@ -23,8 +23,8 @@
                 swap(ref min, ref middle);
             }
             Console.WriteLine($"Minimal age: {min}");
-            Console.WriteLine($"Medium age: {middle}");
-            Console.WriteLine($"maximum age: {max}");
+            Console.WriteLine($"Middle age: {middle}");
+            Console.WriteLine($"Maximum age: {max}");
         }
         private void swap(ref int a, ref int b) {
             int swap = a;
